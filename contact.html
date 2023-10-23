@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+        <a href="index.html"><img src="CSS-removebg-preview.png" alt="CSS UDS Logo"></a> 
+        </div>
+         <ul class="nav-list">
+            <li><a href="index.html" class="nav-links">Home</a></li>
+             <li><a href="about.html" class="nav-links">About</a></li>
+             <li><a href="ourpeople.html" class="nav-links">Our People</a></li>
+             <li><a href="contact.html" class="nav-links">Contact</a></li>
+         </ul>
+     </nav>
+     <form action="submission.php" method="POST">
+        <div style="margin-top: 10px;">
+            <label for="">Name</label>
+        <input type="text" placeholder="Type your Name" required name="name" />
+        </div>
+
+        <div style="margin-top: 10px;">
+            <label for="">Email</label>
+            <input type="email"  placeholder="Enter your Email" required name="email"/>
+        </div>
+        <div class="input-group" style="margin-top: 10px;">
+            <label for="">Gender</label>
+            <select name="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="">Message</label>
+            <textarea cols="30" rows="10" placeholder="Enter your message" name="message"></textarea>
+        </div>
+        
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+        
+     </form>
+     <footer>
+        &copy; 2023 Computer Science Society,
+        <a href="https://uds.edu.gh" target="_blank">UDS</a>
+       </footer>
+</body>
+</html>

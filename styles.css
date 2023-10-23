@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.program-list {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    margin-right: 10px;
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.program-card {
+    flex: 0 0 calc(33.33% - 20px);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(95, 171, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.program-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.program-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-logo img {
+    max-width: 70px;
+}
+.executives {
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.executive-card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(95, 171, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: box-shadow 0.3s;
+    text-align: center;
+}
+
+.executive-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.executive-card img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.executive-name {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.executive-position {
+    color: #888;
+    margin-top: 5px;
+}
